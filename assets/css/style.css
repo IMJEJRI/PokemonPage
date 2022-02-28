@@ -1,46 +1,49 @@
-body{
-
-    margin: 0;
+body {
+  margin: 0;
 }
 
-.Menu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    background-color: grey;
-    
-
+.Menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: grey;
 }
-.Logo{
-    max-width: 100%;
-    width: 100px;
+.Logo {
+  max-width: 100%;
+  width: 100px;
 }
 
-.headerMenu{
-
-padding-bottom: 25px;
-
+.headerMenu {
+  padding-bottom: 25px;
 }
 
-.Pokeball{
+.Pokeball {
+  width: 25px;
+}
+.contenu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.img_menu {
+  width: 100px;
+}
 
-    width: 25px;
+.conteneurCard {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-bottom: 5%;
+}
+
+.Description{
+
+padding: 0px 57px;
 
 }
-.contenu{
-    display: flex;
-    justify-content: space-around;
-}
-.img_menu{
-    width: 100px;
-}
-.contenu>div:first-child {
-	width: 20%;   
-}
-.contenu>div:nth-child(2) {
-	width: 20%;   
-}
-.contenu>div:last-child {
-	width: 20%;   
-}
+
