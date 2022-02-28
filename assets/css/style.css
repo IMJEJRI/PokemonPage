@@ -28,3 +28,19 @@ padding-bottom: 25px;
     width: 25px;
 
 }
+.contenu{
+    display: flex;
+    justify-content: space-around;
+}
+.img_menu{
+    width: 100px;
+}
+.contenu>div:first-child {
+	width: 20%;   
+}
+.contenu>div:nth-child(2) {
+	width: 20%;   
+}
+.contenu>div:last-child {
+	width: 20%;   
+}
